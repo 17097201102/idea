@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Resolution" />
       <item value="compound Font" />
       <item value="decode Bar Code" />
       <item value="Iterate through a series of items." />
@@ -50,12 +51,11 @@
       <item value="* &lt;p&gt; * This constructor sets the component's locale property to the value * returned by &lt;code&gt;JComponent.getDefaultLocale&lt;/code&gt;. *" />
       <item value="* * Creates a new, initially invisible &lt;code&gt;Frame&lt;/code&gt; with the * specified title." />
       <item value="FLIP" />
-      <item value="TWCC OPERATIONERROR" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />
         <entry key="CEBUANO" value="1" />

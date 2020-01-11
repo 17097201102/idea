@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Shouldn't really need to load from system defaults anymore" />
       <item value="DG DAT MSG out of expected sequence" />
       <item value="RESCAN REPLACE SCAN" />
       <item value="Resolution" />
@@ -50,12 +51,11 @@
       <item value="// acquired image as file (twain only for the time being)" />
       <item value="acquired BufferedImage" />
       <item value="/** * An extended version of &lt;code&gt;java.awt.Frame&lt;/code&gt; that adds support for * the JFC/Swing component architecture. * You can find task-oriented documentation about using &lt;code&gt;JFrame&lt;/code&gt; * in &lt;em&gt;The Java Tutorial&lt;/em&gt;, in the section * &lt;a href=&quot;https://docs.oracle.com/javase/tutorial/uiswing/components/frame.html&quot;&gt;How to Make Frames&lt;/a&gt;. * * &lt;p&gt; * The &lt;code&gt;JFrame&lt;/code&gt; class is slightly incompatible with &lt;code&gt;Frame&lt;/code&gt;. * Like all other JFC/Swing top-level containers, * a &lt;code&gt;JFrame&lt;/code&gt; contains a &lt;code&gt;JRootPane&lt;/code&gt; as its only child. * The &lt;b&gt;content pane&lt;/b&gt; provided by the root pane should, * as a rule, contain * all the non-menu components displayed by the &lt;code&gt;JFrame&lt;/code&gt;. * This is different from the AWT &lt;code&gt;Frame&lt;/code&gt; case. * As a convenience, the {@code add}, {@code remove}, and {@code setLayout} * methods of this class are overridden, so that they delegate calls * to the corresponding methods of the {@code ContentPane}. * For example, you can add a child component to a frame as follows: * &lt;pre&gt; * frame.add(child); * &lt;/pre&gt; * And the child will be added to the contentPane. * The content pane will * always be non-null. Attempting to set it to null will cause the JFrame * to throw an exception. The default content pane will have a BorderLayout * manager set on it. * Refer to {@link javax.swing.RootPaneContainer} * for details on adding, removing and setting the &lt;code&gt;LayoutManager&lt;/code&gt; * of a &lt;code&gt;JFrame&lt;/code&gt;. * &lt;p&gt; * Unlike a &lt;code&gt;Frame&lt;/code&gt;, a &lt;code&gt;JFrame&lt;/code&gt; has some notion of how to * respond when the user attempts to close the window. The default behavior * is to simply hide the JFrame when the user closes the window. To change the * default behavior, you invoke the method * {@link #setDefaultCloseOperation}. * To make the &lt;code&gt;JFrame&lt;/code&gt; behave the same as a &lt;code&gt;Frame&lt;/code&gt; * instance, use * &lt;code&gt;setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE)&lt;/code&gt;. * &lt;p&gt; * For more information on content panes * and other features that root panes provide, * see &lt;a href=&quot;https://docs.oracle.com/javase/tutorial/uiswing/components/toplevel.html&quot;&gt;Using Top-Level Containers&lt;/a&gt; in &lt;em&gt;The Java Tutorial&lt;/em&gt;. * &lt;p&gt; * In a multi-screen environment, you can create a &lt;code&gt;JFrame&lt;/code&gt; * on a different screen device. See {@link java.awt.Frame} for more * information. * &lt;p&gt; * &lt;strong&gt;Warning:&lt;/strong&gt; Swing is not thread safe. For more * information see &lt;a * href=&quot;package-summary.html#threading&quot;&gt;Swing's Threading * Policy&lt;/a&gt;. * &lt;p&gt; * &lt;strong&gt;Warning:&lt;/strong&gt; * Serialized objects of this class will not be compatible with * future Swing releases. The current serialization support is * appropriate for short term storage or RMI between applications running * the same version of Swing. As of 1.4, support for long term storage * of all JavaBeans&amp;trade; * has been added to the &lt;code&gt;java.beans&lt;/code&gt; package. * Please see {@link java.beans.XMLEncoder}. * * @see JRootPane * @see #setDefaultCloseOperation * @see java.awt.event.WindowListener#windowClosing * @see javax.swing.RootPaneContainer *" />
-      <item value="* &lt;p&gt; * This constructor sets the component's locale property to the value * returned by &lt;code&gt;JComponent.getDefaultLocale&lt;/code&gt;. *" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="106" />
-        <entry key="ENGLISH" value="107" />
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="108" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />
         <entry key="CEBUANO" value="1" />

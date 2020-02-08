@@ -26,6 +26,10 @@
           <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-api" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-db.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\epidemic" />

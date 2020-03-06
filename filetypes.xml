@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="混合方法-zhanghz.less" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
     </extensionMap>
   </component>

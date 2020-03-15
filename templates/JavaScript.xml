@@ -20,7 +20,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ajaxOriginal" value="/* &#10;HTTP协议工作原理  ： 规定浏览器与服务器数据交互格式&#10;    规定 浏览器 ： 请求报文&#10;        请求行 ： 地址&#10;        请求头 ： 数据格式&#10;        请求体 ： 参数&#10;    规定 浏览器 ： 响应报文&#10;        响应行 ： 状态码 &#10;        响应头 ： 数据格式&#10;        响应体 ： 服务器响应数据&#10;*/&#10;&#10;&#10;//(1).实例化ajax对象&#10;var xhr = new XMLHttpRequest();&#10;//(2).设置请求方法和地址&#10;xhr.open('post', 'https://autumnfish.cn/api/user/register');&#10;//(3).设置请求头（post请求才需要设置）&#10;xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');&#10;//(4).发送请求 ： 参数格式  'key=value' &#10;xhr.send('username=baojiankun');&#10;//(5).注册回调函数&#10;xhr.onload = function () {&#10;    console.log(xhr.responseText);&#10;};   " description="原生ajax的四大步骤" toReformat="false" toShortenFQNames="true">
+  <template name="ajaxOriginal" value="//(1).实例化ajax对象&#10;var xhr = new XMLHttpRequest()&#10;//(2).设置请求方法和地址&#10;xhr.open('$method$', '$url$')&#10;//(3).设置请求头（todo post请求才需要设置）&#10;xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded')&#10;//(4).发送请求 ： 参数格式  'key=value' &#10;xhr.send('$key$=$value$')&#10;//(5).注册回调函数&#10;xhr.onload = function () {&#10;    console.log(xhr.responseText)&#10;}   " description="原生ajax的四大步骤" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

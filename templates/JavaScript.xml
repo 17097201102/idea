@@ -20,7 +20,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ajaxOriginal" value="/* &#10;1. onload事件只有新式浏览器才支持&#10;2. 如果以后需要兼容更加老版本的浏览器例如 IE8，则需要使用onreadystatechange这个事件&#10;3.总结 ： onreadystatechange兼容性比onload更好&#10;&#10;&#10;&#10;*/&#10;//(1).实例化ajax对象&#10;var xhr = new XMLHttpRequest();&#10;//(2).设置请求方法和地址&#10;//get请求的数据直接添加在url的后面 格式是 url?key=value&#10;xhr.open('get', 'http://127.0.0.1:4399/hero/id?id=1');&#10;//(3).发送请求&#10;xhr.send();&#10;//(4).注册回调函数&#10;xhr.onreadystatechange = function() {&#10;    console.log('1111');&#10;    &#10;    //如果你使用onreadystatechange，则需要判断 xhr.readyState == 4才表示响应结束&#10;    if(xhr.readyState == 4){&#10;        console.log(xhr.responseText)&#10;    };&#10;    &#10;};    " description="原生ajax的四大步骤" toReformat="false" toShortenFQNames="true">
+  <template name="ajaxOriginal" value="/* &#10;HTTP协议工作原理  ： 规定浏览器与服务器数据交互格式&#10;    规定 浏览器 ： 请求报文&#10;        请求行 ： 地址&#10;        请求头 ： 数据格式&#10;        请求体 ： 参数&#10;    规定 浏览器 ： 响应报文&#10;        响应行 ： 状态码 &#10;        响应头 ： 数据格式&#10;        响应体 ： 服务器响应数据&#10;*/&#10;&#10;&#10;//(1).实例化ajax对象&#10;var xhr = new XMLHttpRequest();&#10;//(2).设置请求方法和地址&#10;xhr.open('post', 'https://autumnfish.cn/api/user/register');&#10;//(3).设置请求头（post请求才需要设置）&#10;xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');&#10;//(4).发送请求 ： 参数格式  'key=value' &#10;xhr.send('username=baojiankun');&#10;//(5).注册回调函数&#10;xhr.onload = function () {&#10;    console.log(xhr.responseText);&#10;};   " description="原生ajax的四大步骤" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

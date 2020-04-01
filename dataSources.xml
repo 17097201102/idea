@@ -37,5 +37,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="db" uuid="458e0e8b-40b4-4810-926d-b924d4d3f1c3">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\tmp\bookmanager\db.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </application>

@@ -1,0 +1,39 @@
+<templateSet group="JavaScript">
+  <template name="desc" value="/**&#10; * @Description:&#10; * @author $user$&#10; * @date $date$&#10; * &#10;*/" description="FunctionDescription" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fileInput" value="$('$Input$').change(function (e) {&#10;  //1.2 获取用户选择的图片&#10;  var file = this.files[0]&#10;  //1.3 将文件转为src路径&#10;  var url = URL.createObjectURL(file)&#10;  //1.4 将url路径赋值给img标签的src&#10;  $('$Image$').attr('src', url)&#10;})" description="获取input中传入的文件" toReformat="false" toShortenFQNames="true">
+    <variable name="Input" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Image" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajaxFile" value="  /*&#10;  (1)给type类型为submit元素注册点击事件 ： 创建FromData对象就需要查找表单元素&#10;  (2)给表单元素 注册 submit事件，&#10;    a. 点击type为submit的元素会触发&#10;    b. 这个事件中的this就是表单自身，可以不用查找表单元素直接创建FromData对象&#10;  */&#10;  $('$button$').on('click', function (e) {&#10;    //禁用表单默认提交事件&#10;    e.preventDefault();&#10;    let formData = new FormData($('form')[0])&#10;    // formData.set('content', tinyMCE.activeEditor.getContent())&#10;    $.ajax({&#10;      url: '$url$',&#10;      type: 'post',&#10;      dataType: 'json',&#10;      data: formData,&#10;      //默认情况下，jq会自动设置post请求头为 application/x-www-form-urlencoded&#10;      //上传文件，需要设置成  multipart/form-data. 设置成contentType:false&#10;      //作用就是取消jq默认设置&#10;      contentType: false,&#10;      //这个属性是jq独有的属性 ： jq会自动将对象序列化成 key=value&amp;key=value这种格式&#10;      //而文件是不能序列化的，设置成false就是取消序列化&#10;      processData: false,&#10;      success: function (data) {&#10;        console.log('发送文件结果', data)&#10;      }&#10;    });&#10;  });" description="jq通过ajax发送文件,格式multipart/form-data" toReformat="false" toShortenFQNames="true">
+    <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajaxOriginal" value="//(1).实例化ajax对象&#10;var xhr = new XMLHttpRequest()&#10;//(2).设置请求方法和地址&#10;xhr.open('$method$', '$url$')&#10;//(3).设置请求头（todo post请求才需要设置）&#10;xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded')&#10;//(4).发送请求 ： 参数格式  'key=value' &#10;xhr.send('$key$=$value$')&#10;//(5).注册回调函数&#10;xhr.onload = function () {&#10;    console.log(xhr.responseText)&#10;}   " description="原生ajax的四大步骤" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$ajax" value="$.ajax({&#10;    url: '$url$',&#10;    method: '$post$',&#10;    dataType: 'json',&#10;    data: {&#10;    },&#10;    // data: formData,&#10;    success: function (data) {&#10;      console.log('ajax结果', data)&#10;    }&#10;})" description="jQuery的ajax" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="post" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

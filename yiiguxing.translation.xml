@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Consumer" />
+      <item value="Supplier" />
       <item value="窗口" />
       <item value="Priority" />
       <item value="Firefox OS" />
@@ -49,13 +51,11 @@
       <item value="ICAP EXTIMAGEINFO" />
       <item value="Cannot retrieve extra image information." />
       <item value="STATE TRANSFERREADY" />
-      <item value="STATE TRANSFERRING" />
-      <item value="Cannot retrieve image layout" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="112" />
-        <entry key="ENGLISH" value="112" />
+        <entry key="CHINESE" value="113" />
+        <entry key="ENGLISH" value="114" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

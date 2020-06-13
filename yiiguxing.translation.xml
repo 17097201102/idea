@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Declared" />
       <item value="Predicate" />
       <item value="convert" />
       <item value="negate" />
@@ -50,12 +51,11 @@
       <item value="SRCMNGOPEN" />
       <item value="SRCENABLED" />
       <item value="negotiate" />
-      <item value="srce" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="117" />
-        <entry key="ENGLISH" value="118" />
+        <entry key="CHINESE" value="118" />
+        <entry key="ENGLISH" value="119" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

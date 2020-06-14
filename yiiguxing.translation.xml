@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Retention" />
+      <item value="Inherited" />
       <item value="Deprecated" />
       <item value="invoke" />
       <item value="Declared" />
@@ -49,13 +51,11 @@
       <item value="set region of interest to x,y,width,height in pixels" />
       <item value="set resolution in dots per inch" />
       <item value="inactive" />
-      <item value="srcmng" />
-      <item value="SRCMNGOPEN" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="120" />
-        <entry key="ENGLISH" value="121" />
+        <entry key="CHINESE" value="122" />
+        <entry key="ENGLISH" value="123" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

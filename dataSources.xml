@@ -14,7 +14,7 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="MySQL - @localhost" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
+    <data-source source="LOCAL" name="@localhost" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -36,6 +36,12 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="study@192.168.17.128" uuid="a9283194-c4a2-4c25-b68c-72aca45be5c6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.17.128:3306/study</jdbc-url>
     </data-source>
   </component>
 </application>

@@ -1,6 +1,22 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="constraint" />
+      <item value="Retention" />
+      <item value="Inherited" />
+      <item value="Deprecated" />
+      <item value="invoke" />
+      <item value="Declared" />
+      <item value="Predicate" />
+      <item value="convert" />
+      <item value="negate" />
+      <item value="Consumer" />
+      <item value="Supplier" />
+      <item value="窗口" />
+      <item value="Priority" />
+      <item value="Firefox OS" />
+      <item value="element is not attached to the page document" />
+      <item value="fit reg" />
       <item value="/** * Allocates a &lt;code&gt;Date&lt;/code&gt; object and initializes it so that * it represents the date and time indicated by the string * &lt;code&gt;s&lt;/code&gt;, which is interpreted as if by the * {@link Date#parse} method." />
       <item value="Shouldn't really need to load from system defaults anymore" />
       <item value="DG DAT MSG out of expected sequence" />
@@ -35,27 +51,12 @@
       <item value="set region of interest to x,y,width,height in millimeters" />
       <item value="set region of interest to x,y,width,height in pixels" />
       <item value="set resolution in dots per inch" />
-      <item value="inactive" />
-      <item value="srcmng" />
-      <item value="SRCMNGOPEN" />
-      <item value="SRCENABLED" />
-      <item value="negotiate" />
-      <item value="srce" />
-      <item value="ICAP EXTIMAGEINFO" />
-      <item value="Cannot retrieve extra image information." />
-      <item value="STATE TRANSFERREADY" />
-      <item value="STATE TRANSFERRING" />
-      <item value="Cannot retrieve image layout" />
-      <item value="Cannot retrieve image information." />
-      <item value="retrieve" />
-      <item value="make reference copy here to avoid race condition" />
-      <item value="// acquired image as file (twain only for the time being)" />
-      <item value="acquired BufferedImage" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="108" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="124" />
+        <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />
         <entry key="CEBUANO" value="1" />

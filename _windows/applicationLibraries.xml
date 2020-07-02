@@ -20,10 +20,6 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/temp" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
     <library name="@types/webpack" type="javaScript">
       <CLASSES />
       <SOURCES />

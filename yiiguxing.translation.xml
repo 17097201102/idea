@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="group" />
+      <item value="artifact" />
       <item value="dispatcher" />
       <item value="Good" />
       <item value="constraint" />
@@ -49,13 +51,11 @@
       <item value="CAP FEEDERENABLED/CAP AUTOFEED/CAP XFERCOUNT" />
       <item value="use automatic document feeder, scan 5 pages" />
       <item value="works only if user interface is inactive" />
-      <item value="cancel scan if we can't set it up our way" />
-      <item value="set region of interest to x,y,width,height in millimeters" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="125" />
-        <entry key="ENGLISH" value="126" />
+        <entry key="CHINESE" value="127" />
+        <entry key="ENGLISH" value="128" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

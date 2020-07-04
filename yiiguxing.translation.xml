@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="SNAPSHOT" />
       <item value="group" />
       <item value="artifact" />
       <item value="dispatcher" />
@@ -50,12 +51,11 @@
       <item value="negotiation failed let's try to abort scan" />
       <item value="CAP FEEDERENABLED/CAP AUTOFEED/CAP XFERCOUNT" />
       <item value="use automatic document feeder, scan 5 pages" />
-      <item value="works only if user interface is inactive" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="127" />
-        <entry key="ENGLISH" value="128" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="129" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

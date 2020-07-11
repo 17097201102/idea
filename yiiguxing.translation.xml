@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="新碟首发" />
+      <item value="首发" />
+      <item value="推荐" />
       <item value="wrap" />
       <item value="align" />
       <item value="vertical-" />
@@ -48,14 +51,11 @@
       <item value="ICAP_PIXELTYPE values (PT_ means Pixel Type)" />
       <item value="ICAP_XFERMECH values (SX_ means Setup XFer)" />
       <item value="ICAP_BITORDER values (BO_ means Bit Order)" />
-      <item value="TWSX FILE" />
-      <item value="Mechanism" />
-      <item value="i.e. source's default. The default does not have to be bmp!" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="132" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="CHINESE" value="135" />
+        <entry key="ENGLISH" value="135" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

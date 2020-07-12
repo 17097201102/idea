@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="品牌" />
+      <item value="家用电器" />
       <item value="特惠" />
       <item value="展开" />
       <item value="商品分类列表" />
@@ -49,13 +51,11 @@
       <item value="CAP CLEARPAGE" />
       <item value="ICAP COMPRESSION" />
       <item value="CAP SUPPORTEDCAPS" />
-      <item value="set Indicators" />
-      <item value="ICAP_IMAGEFILTER uk.co.mmscomputing.device.twain.TwainFailureException: Failed during call to twain source. cc=Capability has dependancy on other capability rc=1" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="141" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

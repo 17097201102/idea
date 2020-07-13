@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="scale" />
       <item value="备案" />
       <item value="slogan" />
       <item value="品牌" />
@@ -50,12 +51,11 @@
       <item value="&quot;Success&quot;, &quot;Failure due to unknown causes&quot;, &quot;Not enough memory to perform operation&quot;, &quot;No Data Source&quot;, &quot;DS is connected to max possible applications&quot;, &quot;DS or DSM reported internal error&quot;, &quot;Unknown capability&quot;, &quot;&quot;, &quot;&quot;, &quot;Unrecognized MSG DG DAT combination&quot;, &quot;Data parameter out of range&quot;, &quot;DG DAT MSG out of expected sequence&quot;, &quot;Unknown destination Application/Source in DSM_Entry&quot;, &quot;Capability not supported by source&quot;, &quot;Operation not supported by capability&quot;, &quot;Capability has dependancy on other capability&quot;, &quot;File System operation is denied (file is protected)&quot;, &quot;Operation failed because file already exists.&quot;, &quot;File not found&quot;, &quot;Operation failed because directory is not empty&quot;, &quot;The feeder is jammed&quot;, &quot;The feeder detected multiple pages&quot;, &quot;Error writing the file (i.e. disk full conditions)&quot;, &quot;The device went offline prior to or during this operation&quot;" />
       <item value="REWIND" />
       <item value="FEED" />
-      <item value="CAP CLEARPAGE" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="142" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="ENGLISH" value="143" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

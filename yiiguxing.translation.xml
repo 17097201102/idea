@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="translate" />
+      <item value="transform" />
+      <item value="transition" />
       <item value="家用电器" />
       <item value="全场优惠" />
       <item value="轮播图" />
@@ -48,14 +51,11 @@
       <item value="element is not attached to the page document" />
       <item value="fit reg" />
       <item value="/** * Allocates a &lt;code&gt;Date&lt;/code&gt; object and initializes it so that * it represents the date and time indicated by the string * &lt;code&gt;s&lt;/code&gt;, which is interpreted as if by the * {@link Date#parse} method." />
-      <item value="Shouldn't really need to load from system defaults anymore" />
-      <item value="DG DAT MSG out of expected sequence" />
-      <item value="RESCAN REPLACE SCAN" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="150" />
-        <entry key="ENGLISH" value="150" />
+        <entry key="CHINESE" value="152" />
+        <entry key="ENGLISH" value="153" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

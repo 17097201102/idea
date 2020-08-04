@@ -6,4 +6,9 @@
       <option name="SQL" value="true" />
     </context>
   </template>
+  <template name="procedure" value="delimiter $&#10;create procedure pro_test6()&#10;begin &#10;    $END$&#10;end $&#10;&#10;delimiter ;" description="存储过程快速生成" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>

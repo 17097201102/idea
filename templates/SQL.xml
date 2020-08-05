@@ -1,5 +1,5 @@
 <templateSet group="SQL">
-  <template name="del" value="delete from $table$ where $END$;" description="删除快捷" toReformat="false" toShortenFQNames="true">
+  <template name="del" value="delete from $table$ where  $END$;" description="删除快捷" toReformat="false" toShortenFQNames="true">
     <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
@@ -17,5 +17,16 @@
     <context>
       <option name="SQL" value="true" />
     </context>
+  </template>
+  <template name="selw" value="select * from $table$ $alias$ where  $alias$.$END$;" description="select specific rows from a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias" expression="complete()" defaultValue="&quot;alias&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="upd" value="update $table_name$ set $col$ = $value$ where  $END$;" description="update values in a table" toReformat="true" toShortenFQNames="false">
+    <variable name="table_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>

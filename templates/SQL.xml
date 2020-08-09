@@ -1,0 +1,9 @@
+<templateSet group="SQL">
+  <template name="del" value="delete from $table$ $alias$ where $alias$.$END$;" description="删除快捷" toReformat="false" toShortenFQNames="true">
+    <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

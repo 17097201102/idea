@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="stop Propagation" />
       <item value="斐波那契" />
       <item value="阶乘" />
       <item value="house" />
@@ -50,12 +51,11 @@
       <item value="Retention" />
       <item value="Inherited" />
       <item value="Deprecated" />
-      <item value="invoke" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="164" />
-        <entry key="ENGLISH" value="164" />
+        <entry key="ENGLISH" value="165" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

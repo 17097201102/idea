@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="斐波那契" />
+      <item value="阶乘" />
+      <item value="house" />
+      <item value="hourse" />
+      <item value="运算符" />
       <item value="圆形面积" />
       <item value="Infinity" />
       <item value="constraint" />
@@ -46,16 +51,11 @@
       <item value="Inherited" />
       <item value="Deprecated" />
       <item value="invoke" />
-      <item value="Declared" />
-      <item value="Predicate" />
-      <item value="convert" />
-      <item value="negate" />
-      <item value="Consumer" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="160" />
-        <entry key="ENGLISH" value="160" />
+        <entry key="CHINESE" value="164" />
+        <entry key="ENGLISH" value="164" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

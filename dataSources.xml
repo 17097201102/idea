@@ -14,11 +14,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
+    <data-source source="LOCAL" name="centOs-1@192.168.23.129" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.23.129:3306</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>

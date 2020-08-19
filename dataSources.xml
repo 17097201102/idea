@@ -37,11 +37,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="study@192.168.17.128" uuid="a9283194-c4a2-4c25-b68c-72aca45be5c6">
+    <data-source source="LOCAL" name="study@192.168.23.128" uuid="a9283194-c4a2-4c25-b68c-72aca45be5c6">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.17.128:3306/study</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.23.128:3306/study</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="@192.168.23.129" uuid="a8d7ebe2-31aa-43a3-85d0-3606bb6a6e1e">
       <driver-ref>mysql.8</driver-ref>

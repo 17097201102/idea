@@ -43,12 +43,6 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.128:3306/study</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mycat@192.168.23.129" uuid="a8d7ebe2-31aa-43a3-85d0-3606bb6a6e1e">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.23.129:8066</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="centOs-2@192.168.23.128" uuid="58f057c0-862e-4ab0-b38f-8f573157b44c">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
@@ -57,6 +51,18 @@
       <driver-properties>
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mycat@192.168.23.129 [2]" uuid="c4ce3993-e287-4bed-be24-c160cc4c3979">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.129:8066</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mycat@192.168.23.129" uuid="2c86e0b3-b83f-4e6f-b7ce-972fe6599ad8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.129:8066</jdbc-url>
     </data-source>
   </component>
 </application>

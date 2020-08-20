@@ -44,4 +44,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="$on" value="$('body').on({&#10;    $delegate$: function () {&#10;      // 动态委派&#10;      console.log('$delegate$','$ELE$');&#10;       $END$&#10;    }&#10;  }, '$ELE$');" description="on 方法" toReformat="false" toShortenFQNames="true">
+    <variable name="delegate" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

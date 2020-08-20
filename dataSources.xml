@@ -52,17 +52,17 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mycat@192.168.23.129 [2]" uuid="c4ce3993-e287-4bed-be24-c160cc4c3979">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.23.129:8066</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="mycat@192.168.23.129" uuid="2c86e0b3-b83f-4e6f-b7ce-972fe6599ad8">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.129:8066</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mycat@192.168.23.128-备份" uuid="b72cee8d-99f4-4a89-81a7-4992948576a9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.128:8066</jdbc-url>
     </data-source>
   </component>
 </application>

@@ -3,7 +3,7 @@
     <property name="created">2020-03-13T06:15:46</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-08-22T09:43:27</property>
+    <property name="modified">2020-08-22T10:24:42</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <colors>
@@ -18,8 +18,11 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="969696" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0c40" />
+        <option name="FOREGROUND" value="646464" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="646464" />
+        <option name="ERROR_STRIPE_COLOR" value="969696" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -33,7 +36,10 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="271dff" />
+        <option name="FOREGROUND" value="646464" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="646464" />
         <option name="ERROR_STRIPE_COLOR" value="f0adf0" />
       </value>
     </option>

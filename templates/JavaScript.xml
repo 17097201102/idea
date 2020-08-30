@@ -29,7 +29,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="$ajax" value="$.ajax({&#10;    url: '$url$',&#10;    method: '$post$',&#10;    dataType: 'json',&#10;    data: {&#10;    },&#10;    // data: formData,&#10;    success: function (data) {&#10;      console.log('ajax结果', data);&#10;    }&#10;})" description="jQuery的ajax" toReformat="false" toShortenFQNames="true">
+  <template name="$ajax" value="$.ajax({&#10;    url: '$url$',&#10;    method: '$post$',&#10;    dataType: 'json',&#10;    data: {&#10;    '$END$'&#10;    },&#10;    // data: formData,&#10;    success: function (data) {&#10;      console.log('ajax结果', data);&#10;    }&#10;})" description="jQuery的ajax" toReformat="false" toShortenFQNames="true">
     <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="post" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

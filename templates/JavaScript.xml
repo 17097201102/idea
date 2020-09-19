@@ -51,4 +51,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="try" value="try {&#10;  $EDN$&#10;}catch (e) {&#10;  &#10;}" description="try语法块" toReformat="false" toShortenFQNames="true">
+    <variable name="EDN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

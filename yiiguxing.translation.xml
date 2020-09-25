@@ -1,61 +1,61 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="association" />
+      <item value="装饰器" />
+      <item value="stop Propagation" />
+      <item value="斐波那契" />
+      <item value="阶乘" />
+      <item value="house" />
+      <item value="hourse" />
+      <item value="运算符" />
+      <item value="圆形面积" />
+      <item value="Infinity" />
+      <item value="constraint" />
+      <item value="duplicate" />
+      <item value="Passivate" />
+      <item value="THURSDAY" />
+      <item value="WEDNESDAY" />
+      <item value="perspective" />
+      <item value="translate" />
+      <item value="transform" />
+      <item value="transition" />
+      <item value="家用电器" />
+      <item value="全场优惠" />
+      <item value="轮播图" />
+      <item value="coupon" />
+      <item value="justify" />
+      <item value="时钟" />
+      <item value="banner" />
+      <item value="活动专区" />
+      <item value="轮播图-" />
+      <item value="scale" />
+      <item value="备案" />
+      <item value="slogan" />
+      <item value="品牌" />
+      <item value="特惠" />
+      <item value="展开" />
+      <item value="商品分类列表" />
+      <item value="菜单" />
+      <item value="新碟首发" />
+      <item value="首发" />
+      <item value="推荐" />
+      <item value="wrap" />
+      <item value="align" />
+      <item value="vertical-" />
+      <item value="decoration" />
+      <item value="天蓝色" />
       <item value="SNAPSHOT" />
       <item value="group" />
       <item value="artifact" />
       <item value="dispatcher" />
       <item value="Good" />
-      <item value="constraint" />
       <item value="Retention" />
-      <item value="Inherited" />
-      <item value="Deprecated" />
-      <item value="invoke" />
-      <item value="Declared" />
-      <item value="Predicate" />
-      <item value="convert" />
-      <item value="negate" />
-      <item value="Consumer" />
-      <item value="Supplier" />
-      <item value="窗口" />
-      <item value="Priority" />
-      <item value="Firefox OS" />
-      <item value="element is not attached to the page document" />
-      <item value="fit reg" />
-      <item value="/** * Allocates a &lt;code&gt;Date&lt;/code&gt; object and initializes it so that * it represents the date and time indicated by the string * &lt;code&gt;s&lt;/code&gt;, which is interpreted as if by the * {@link Date#parse} method." />
-      <item value="Shouldn't really need to load from system defaults anymore" />
-      <item value="DG DAT MSG out of expected sequence" />
-      <item value="RESCAN REPLACE SCAN" />
-      <item value="Resolution" />
-      <item value="compound Font" />
-      <item value="decode Bar Code" />
-      <item value="Iterate through a series of items." />
-      <item value="MSG GETCURRENT" />
-      <item value="&quot;Success&quot;, &quot;Failure due to unknown causes&quot;, &quot;Not enough memory to perform operation&quot;, &quot;No Data Source&quot;, &quot;DS is connected to max possible applications&quot;, &quot;DS or DSM reported internal error&quot;, &quot;Unknown capability&quot;, &quot;&quot;, &quot;&quot;, &quot;Unrecognized MSG DG DAT combination&quot;, &quot;Data parameter out of range&quot;, &quot;DG DAT MSG out of expected sequence&quot;, &quot;Unknown destination Application/Source in DSM_Entry&quot;, &quot;Capability not supported by source&quot;, &quot;Operation not supported by capability&quot;, &quot;Capability has dependancy on other capability&quot;, &quot;File System operation is denied (file is protected)&quot;, &quot;Operation failed because file already exists.&quot;, &quot;File not found&quot;, &quot;Operation failed because directory is not empty&quot;, &quot;The feeder is jammed&quot;, &quot;The feeder detected multiple pages&quot;, &quot;Error writing the file (i.e. disk full conditions)&quot;, &quot;The device went offline prior to or during this operation&quot;" />
-      <item value="REWIND" />
-      <item value="FEED" />
-      <item value="CAP CLEARPAGE" />
-      <item value="ICAP COMPRESSION" />
-      <item value="CAP SUPPORTEDCAPS" />
-      <item value="set Indicators" />
-      <item value="ICAP_IMAGEFILTER uk.co.mmscomputing.device.twain.TwainFailureException: Failed during call to twain source. cc=Capability has dependancy on other capability rc=1" />
-      <item value="MSG_CLOSEDSOK,MSG_CLOSEDSREQ in callback routine" />
-      <item value="ICAP_PIXELTYPE values (PT_ means Pixel Type)" />
-      <item value="ICAP_XFERMECH values (SX_ means Setup XFer)" />
-      <item value="ICAP_BITORDER values (BO_ means Bit Order)" />
-      <item value="TWSX FILE" />
-      <item value="Mechanism" />
-      <item value="i.e. source's default. The default does not have to be bmp!" />
-      <item value="feeder" />
-      <item value="all data sources are REQUIRED to support these caps" />
-      <item value="negotiation failed let's try to abort scan" />
-      <item value="CAP FEEDERENABLED/CAP AUTOFEED/CAP XFERCOUNT" />
-      <item value="use automatic document feeder, scan 5 pages" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="128" />
-        <entry key="ENGLISH" value="129" />
+        <entry key="CHINESE" value="166" />
+        <entry key="ENGLISH" value="166" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

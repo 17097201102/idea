@@ -4,15 +4,9 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
-  <action id="CodeCompletion" />
   <action id="EditorDeleteLine" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
-  <action id="ServiceView.GroupByContributor" />
-  <action id="SurroundWith">
-    <keyboard-shortcut first-keystroke="ctrl alt t" second-keystroke="shift alt t" />
-  </action>
-  <action id="tasks.switch" />
 </keymap>

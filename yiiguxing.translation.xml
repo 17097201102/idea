@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="位运算" />
+      <item value="十进制" />
       <item value="association" />
       <item value="装饰器" />
       <item value="stop Propagation" />
@@ -49,13 +51,11 @@
       <item value="group" />
       <item value="artifact" />
       <item value="dispatcher" />
-      <item value="Good" />
-      <item value="Retention" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="166" />
-        <entry key="ENGLISH" value="166" />
+        <entry key="CHINESE" value="168" />
+        <entry key="ENGLISH" value="168" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="SLOVENIAN" value="1" />

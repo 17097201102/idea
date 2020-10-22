@@ -34,9 +34,13 @@
           <option name="url" value="http://gitee.com" />
           <option name="userName" value="z17097201102" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/z17097201102/test-01.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\epidemic" />
+    <option name="cloneParentDir" value="D:\tmp\git" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">

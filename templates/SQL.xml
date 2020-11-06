@@ -5,13 +5,13 @@
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="procedure" value="delimiter $&#10;create procedure $method$()&#10;begin &#10;    $END$&#10;end $&#10;&#10;delimiter ;" description="存储过程快速生成" toReformat="false" toShortenFQNames="true">
+  <template name="delimiter procedure" value="delimiter $&#10;create procedure $method$()&#10;begin &#10;    $END$&#10;end $&#10;&#10;delimiter ;" description="存储过程快速生成" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="function" value="delimiter $&#10;create function $method$()&#10;    returns $returns$&#10;begin &#10;    return $END$;&#10;end $&#10;&#10;delimiter ;" description="存储函数" toReformat="false" toShortenFQNames="true">
+  <template name="delimiter function" value="delimiter $&#10;create function $method$()&#10;    returns $returns$&#10;begin &#10;    return $END$;&#10;end $&#10;&#10;delimiter ;" description="存储函数" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="returns" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

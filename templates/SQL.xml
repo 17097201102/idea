@@ -29,4 +29,10 @@
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="delimiter trigger" value="delimiter $&#10;create trigger $name$&#10;    $before_or_after$ $operate$&#10;    on $table$&#10;    for each row&#10;begin&#10;    $END$&#10;end $" description="触发器快速生成" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="before_or_after" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="operate" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>

@@ -14,7 +14,7 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="MySQL - @localhost" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
+    <data-source source="LOCAL" name="192.168.23.129" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -78,6 +78,12 @@
       <driver-properties>
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@192.168.23.128" uuid="66111ccd-b70b-49e6-a857-96b69b675e49">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.128:3307</jdbc-url>
     </data-source>
   </component>
 </application>

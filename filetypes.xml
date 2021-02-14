@@ -5,9 +5,9 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
       <mapping pattern="MyDataSource中" type="PLAIN_TEXT" />
-      <mapping pattern="kibana_day01_operator" type="PLAIN_TEXT" />
       <mapping pattern="kibana-cluster-operator" type="PLAIN_TEXT" />
       <mapping pattern="META-INF" type="PLAIN_TEXT" />
+      <mapping pattern="kibana_day01_operator" type="PLAIN_TEXT" />
       <mapping pattern="less混合函数.less" type="PLAIN_TEXT" />
       <mapping pattern="a" type="PLAIN_TEXT" />
       <mapping pattern="混合方法-zhanghz.less" type="PLAIN_TEXT" />

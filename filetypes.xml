@@ -10,6 +10,7 @@
       <mapping pattern="a" type="PLAIN_TEXT" />
       <mapping pattern="混合方法-zhanghz.less" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
       <mapping ext="servletcontainerinitializer" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />

@@ -1,0 +1,11 @@
+<templateSet group="Zen HTML">
+  <template name="table" value="&lt;table border=&quot;1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; align=&quot;center&quot; width=&quot;$width$&quot;&gt;&#10;  &lt;caption&gt;$title$&lt;/caption&gt;&#10;  &lt;thead&gt;&#10;  &lt;tr&gt;&#10;    &lt;th&gt;$head$&lt;/th&gt;&#10;  &lt;/tr&gt;&#10;  &lt;/thead&gt;&#10;  &lt;tbody align=&quot;center&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;$END$&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;/tbody&gt;&#10;  &lt;tfoot&gt;&#10;  &lt;tr&gt;&#10;    &lt;td&gt;$footer$&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;  &lt;/tfoot&gt;&#10; &lt;/table&gt;" description="复杂表格结构" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="head" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="footer" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

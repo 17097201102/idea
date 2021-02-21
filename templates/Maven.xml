@@ -1,0 +1,12 @@
+<templateSet group="Maven">
+  <template name="tomcat7" value="&lt;plugin&gt;&#10;    &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;&#10;    &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;&#10;    &lt;version&gt;2.2&lt;/version&gt;&#10;    &lt;configuration&gt;&#10;        &lt;port&gt;8080&lt;/port&gt;&#10;        &lt;path&gt;/&lt;/path&gt;&#10;    &lt;/configuration&gt;&#10;&lt;/plugin&gt;" description="tomcat添加配置" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="jdk8" value="&lt;plugin&gt;&#10;    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;    &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;    &lt;configuration&gt;&#10;        &lt;source&gt;1.8&lt;/source&gt;&#10;        &lt;target&gt;1.8&lt;/target&gt;&#10;        &lt;encoding&gt;UTF-8&lt;/encoding&gt;&#10;    &lt;/configuration&gt;&#10;&lt;/plugin&gt;" description="jdk8的maven插件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

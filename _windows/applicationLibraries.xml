@@ -1,6 +1,34 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/ascii-art" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/images" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/jquery" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/node" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/npm" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/webpack" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="express" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="vue" type="javaScript">
       <CLASSES />
       <SOURCES />
     </library>

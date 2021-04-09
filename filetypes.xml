@@ -13,6 +13,7 @@
       <mapping ext="txt_new" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
       <mapping ext="servletcontainerinitializer" type="PLAIN_TEXT" />
+      <mapping ext="h5" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />

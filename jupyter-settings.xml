@@ -6,7 +6,6 @@
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
-              <option name="port" value="8889" />
             </JupyterConnectionParameters>
           </value>
         </entry>

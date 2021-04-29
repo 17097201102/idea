@@ -3,10 +3,6 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com" />
-          <option name="userName" value="zhanghz001" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://github.com" />
           <option name="userName" value="18559213787" />
         </UrlAndUserName>
@@ -15,19 +11,7 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/kangd001/scanclient.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="https://github.com/e-admin/alsigm.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-api" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-db.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>

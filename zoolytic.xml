@@ -2,9 +2,7 @@
   <component name="Zoolytic">
     <option name="clusters">
       <list>
-        <option value="192.168.23.129:2181" />
-        <option value="192.168.23.129:2181" />
-        <option value="192.168.23.129:2182" />
+        <option value="192.168.23.129:2181,192.168.23.129:2182,192.168.23.129:2183" />
       </list>
     </option>
   </component>

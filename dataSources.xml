@@ -1,62 +1,13 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="gip-dev" uuid="9b769fa7-37a2-4379-8bc7-2f14a128adfd">
+    <data-source source="LOCAL" name="@127.0.0.1" uuid="20f930d9-a64b-48bc-a1a5-8c2e2fb9d14e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://100.75.53.5:4308</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="192.168.23.129(主)" uuid="7fa4cafe-cb4d-4208-a1b9-dfd9f08e8d0d">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.23.129:3306/</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="healthReport" uuid="8c8df5bc-3b24-46ed-864a-0cb408076597">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://100.75.53.21:4308/health</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="study@192.168.17.128" uuid="a9283194-c4a2-4c25-b68c-72aca45be5c6">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.23.128:3306/study</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="bignews@127.0.0.1" uuid="20f930d9-a64b-48bc-a1a5-8c2e2fb9d14e">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3306/bignews</jdbc-url>
-      <driver-properties>
-        <property name="serverTimezone" value="Asia/Shanghai" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="192.168.23.128(从)" uuid="66111ccd-b70b-49e6-a857-96b69b675e49">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.23.128:3306</jdbc-url>
     </data-source>
   </component>
 </application>

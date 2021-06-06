@@ -3,19 +3,11 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com" />
-          <option name="userName" value="zhanghz001" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://github.com" />
-          <option name="userName" value="18559213787" />
+          <option name="userName" value="17097201102" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://github.com/tensorflow/models.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/kangd001/scanclient.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
@@ -23,20 +15,8 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-api" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.dev.cmrh.com/OnlineCloud/healthy-report-db.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://gitee.com" />
           <option name="userName" value="z17097201102" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/z17097201102/test-01.git" />
-          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>

@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Error while obtaining UI hierarchy XML file: com.android.ddmlib.SyncException: Remote object doesn't exist! Error while obtaining UI hierarchy XML file: com.android.ddmlib.SyncException: Remote object doesn't exist! " />
       <item value="refrect" />
       <item value="Atomic" />
       <item value="volatile" />
@@ -50,11 +51,10 @@
       <item value="wrap" />
       <item value="align" />
       <item value="vertical-" />
-      <item value="decoration" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
+        <entry key="CHINESE" value="173" />
         <entry key="ENGLISH" value="173" />
         <entry key="GALICIAN" value="1" />
         <entry key="LATIN" value="1" />

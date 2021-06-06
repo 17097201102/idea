@@ -2,5 +2,6 @@
   <component name="HttpConfigurable">
     <option name="PROXY_HOST" value="localhost" />
     <option name="PROXY_PORT" value="8000" />
+    <option name="USE_PAC_URL" value="true" />
   </component>
 </application>

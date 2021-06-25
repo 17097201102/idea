@@ -64,5 +64,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.133:13306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="23.128_3307_123456" uuid="0f99f981-bc55-40d9-825a-41a0bd1a6ff0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.128:3307</jdbc-url>
+    </data-source>
   </component>
 </application>

@@ -121,5 +121,11 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="23.137_3410_mysql01_1234" uuid="313fbf07-5e8f-4b96-a176-35e49137369a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.137:3410</jdbc-url>
+    </data-source>
   </component>
 </application>

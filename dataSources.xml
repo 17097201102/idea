@@ -88,7 +88,7 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="23.137_8066_mycat_1234" uuid="8964a11e-c2f5-423b-a8fc-f10b6de46e5e">
+    <data-source source="LOCAL" name="23.137_8066_mycat_1234_不能用" uuid="8964a11e-c2f5-423b-a8fc-f10b6de46e5e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -126,6 +126,12 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.137:3410</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="23.137_3420_mysql03_1234" uuid="cb638d00-0cc7-44ba-bf8e-f88965348a35">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.137:3420</jdbc-url>
     </data-source>
   </component>
 </application>

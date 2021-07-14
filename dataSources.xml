@@ -112,5 +112,14 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="192.168.23.140-第四篇第3章-数据库分库分表" uuid="42d5bc20-155c-46d6-95fb-bf5424cf5d4d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.140:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Asia/Shanghai" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>

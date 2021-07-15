@@ -112,7 +112,7 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="192.168.23.140-第四篇第3章-数据库分库分表" uuid="42d5bc20-155c-46d6-95fb-bf5424cf5d4d">
+    <data-source source="LOCAL" name="192.168.23.140-1-第四篇第4章数据库平滑扩容如何解" uuid="42d5bc20-155c-46d6-95fb-bf5424cf5d4d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -132,6 +132,24 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.137:3420</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="192.168.23.144-vip-第四篇第4章数据库平滑扩容如何解" uuid="9042f013-f728-47ce-9b1a-93a7757d0df3">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.144:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Asia/Shanghai" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="192.168.23.141-2-第四篇第4章数据库平滑扩容如何解" uuid="a4a7246e-a4a4-42d8-8c82-beb2e18167f1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.23.141:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Asia/Shanghai" />
+      </driver-properties>
     </data-source>
   </component>
 </application>

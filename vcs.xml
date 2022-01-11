@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/apache/shardingsphere-elasticjob.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.dousha8ao.com/luwang/dowsure-boss.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\dowsure\git" />

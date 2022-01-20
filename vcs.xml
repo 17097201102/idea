@@ -4,7 +4,7 @@
       <list>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
-          <option name="userName" value="17097201102" />
+          <option name="userName" value="huangze.zhang@magnumwm.com" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://github.com/tensorflow/models.git" />
@@ -41,6 +41,10 @@
         <UrlAndUserName>
           <option name="url" value="http://gitlab.aqumon.com" />
           <option name="userName" value="huangze.zhang" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/magnumwm/base_framework.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>

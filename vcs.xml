@@ -50,6 +50,10 @@
           <option name="url" value="https://github.com/magnumwm/base_framework" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/magnumwm/common-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\aqumon" />

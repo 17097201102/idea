@@ -205,5 +205,17 @@
         <property name="serverTimezone" value="Asia/Shanghai" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="生成所有@172.31.74.176" uuid="7875d24d-7e83-4079-b963-496d093daa40">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://172.31.74.176:10003</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="algo-space-test@192.168.8.187" uuid="7fd8f337-ccf7-40e8-88d7-886da1c03777">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.8.187:3307/algo-space-migration-test2?characterEncoding=utf-8&amp;useSSL=false&amp;rewriteBatchedStatements=true&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false</jdbc-url>
+    </data-source>
   </component>
 </application>

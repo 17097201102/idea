@@ -217,5 +217,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.8.187:3307/algo-space-migration-test2?characterEncoding=utf-8&amp;useSSL=false&amp;rewriteBatchedStatements=true&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="aqumon生成只读172.31.74.176" uuid="ce574d08-8885-4b3c-8537-a75f002cc2d9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://172.31.74.176:10003</jdbc-url>
+    </data-source>
   </component>
 </application>

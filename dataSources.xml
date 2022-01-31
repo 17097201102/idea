@@ -223,5 +223,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://172.31.74.176:10003</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="jdbc:mysql://rm-3ns8la33h4868f2zi.mysql.rds.aliyuncs\   .com:3306/algo-space?characterEncoding=utf-8&amp;useSSL=false&amp;rewriteBatchedStatements=true&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false" uuid="cff23370-d728-4d20-9794-e5ea393180f6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-3ns8la33h4868f2zi.mysql.rds.aliyuncs\   .com:3306/algo-space?characterEncoding=utf-8&amp;useSSL=false&amp;rewriteBatchedStatements=true&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false</jdbc-url>
+    </data-source>
   </component>
 </application>

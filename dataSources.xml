@@ -33,7 +33,7 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.23.128:3306/study</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="window本机-quantitive-127.0.0.1" uuid="20f930d9-a64b-48bc-a1a5-8c2e2fb9d14e">
+    <data-source source="LOCAL" name="quantitive-127.0.0.1" uuid="20f930d9-a64b-48bc-a1a5-8c2e2fb9d14e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
